@@ -139,7 +139,7 @@
                             valueType="string"/>
                         <_x0031_570129476186
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            sling:resourceType="dam/cfm/models/editor/componentsreference"
                             fieldLabel="Primary Image"
                             filter="hierarchy"
                             listOrder="8"
