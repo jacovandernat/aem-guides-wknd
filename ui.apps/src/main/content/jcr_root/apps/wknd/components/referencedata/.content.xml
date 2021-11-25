@@ -4,6 +4,6 @@
     xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Component"
     jcr:title="ReferenceData"
-    jcr:description="Displays a text with actulised reference data."
+    jcr:description="Displays a text with actualised reference data."
     componentGroup="WKND.Content"
     sling:resourceSuperType="core/wcm/components/text/v2/text" />

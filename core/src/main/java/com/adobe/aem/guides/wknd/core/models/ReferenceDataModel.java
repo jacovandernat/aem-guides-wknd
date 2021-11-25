@@ -1,7 +1,10 @@
 package com.adobe.aem.guides.wknd.core.models;
 
+
 import com.adobe.cq.wcm.core.components.models.Text;
 import com.day.cq.wcm.api.Page;
+
+import javax.annotation.PostConstruct;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.Model;
@@ -16,11 +19,24 @@ public class ReferenceDataModel implements Text {
     @ScriptVariable
     private Page currentPage;
  
-    @Self @Via(type = ResourceSuperType.class)
+    @Self 
+    @Via(type = ResourceSuperType.class)
     private Text text;
+    
+    private String replacedText;  
+    
+    @PostConstruct
+    protected void init() {
+
+    	replacedText = text.getText() + "Hello World!";
+    }
  
     @Override
     public String getText() {
-        return text.toString();
+        return text.getText();
+    }
+    
+    public String getReplacedText() {
+        return replacedText;
     }
 }
