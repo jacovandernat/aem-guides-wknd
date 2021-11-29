@@ -1,0 +1,24 @@
+{
+    "referentiegegevens": {
+        "description": "Cijfers en bedragen die van belang zijn bij de uitvoering van de collectieve PFZW-regelingen de oud-fonds-regelingen 2021Uitsluitend voor intern gebruik!",
+        "datum": "01-01-2021",
+		"Opbouwgegevens": {    
+			"A-regeling": {
+                "Ouderdomspensioen": "1,75%",
+				"Pensioenrekenleeftijd": "68",
+				"Partnerpensioen": "1,25%",
+				"Waarvan in opbouw": "0,625%",
+				"Wezenpensioen (voor volle wezen x 2)": "0,25%"
+            },
+			"Aftopping pensioenopbouw": {
+                "Maximum FT-salaris voor opbouw OP/NP": "112.189",
+			    "Maximum OP-premie": "24.769,50",
+			    "Maximum OP-premie voor VV naast BVW": "22.986,10"
+            }
+        },
+		"Franchise bedragen": {    
+		    "AOW-franchise voor premie en opbouw": "13.111",
+			"AP-franchise 21 jaar": "21.835"
+        }
+    }
+}
