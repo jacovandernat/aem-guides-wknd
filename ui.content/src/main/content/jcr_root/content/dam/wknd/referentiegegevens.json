@@ -1,11 +1,11 @@
 {
     "referentiegegevens": {
-        "description": "Cijfers en bedragen die van belang zijn bij de uitvoering van de collectieve PFZW-regelingen de oud-fonds-regelingen 2021Uitsluitend voor intern gebruik!",
+        "description": "Cijfers en bedragen die van belang zijn bij de uitvoering van de collectieve PFZW-regelingen de oud-fonds-regelingen 2021. Uitsluitend voor intern gebruik!",
         "datum": "01-01-2021",
 		"Opbouwgegevens": {    
 			"A-regeling": {
                 "Ouderdomspensioen": "1,75%",
-				"Pensioenrekenleeftijd": "68",
+                "Pensioenrekenleeftijd": "68",
 				"Partnerpensioen": "1,25%",
 				"Waarvan in opbouw": "0,625%",
 				"Wezenpensioen (voor volle wezen x 2)": "0,25%"

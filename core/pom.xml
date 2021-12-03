@@ -36,9 +36,7 @@
 							<goal>bnd-process</goal>
 						</goals>
 						<configuration>
-							<bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
-                                ]]></bnd>
+							<bnd><![CDATA[Import-Package: javax.annotation;version=0.0.0,*]]></bnd>
 						</configuration>
 					</execution>
 				</executions>
